@@ -41,7 +41,7 @@
 			});	// If we set async false, file is loaded and executed, then next statement is processed
 			if (loc) d.Sf.action = getURL('/settings/leds');
 		}
-		function bLimits(b,v,p,m,l,o=5,d=2,a=6) {
+		function bLimits(b,v,p,m,l,o=10,d=2,a=6) {
 			oMaxB = maxB = b; // maxB - max buses (can be changed if using ESP32 parallel I2S)
 			maxD  = d; // maxD - max digital channels (can be changed if using ESP32 parallel I2S)
 			maxA  = a; // maxA - max analog channels
