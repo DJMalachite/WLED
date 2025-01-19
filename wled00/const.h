@@ -46,7 +46,7 @@
 
 #ifndef WLED_MAX_BUSSES
   #ifdef ESP8266
-    #define WLED_MAX_DIGITAL_CHANNELS 3
+    #define WLED_MAX_DIGITAL_CHANNELS 10
     #define WLED_MAX_ANALOG_CHANNELS 5
     #define WLED_MAX_BUSSES 10                 // will allow 3 digital & 1 analog RGB
     #define WLED_MIN_VIRTUAL_BUSSES 2
